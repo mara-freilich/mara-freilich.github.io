@@ -1,3 +1,38 @@
+// Added css:
+.left-column-about {
+  width: 30%;
+  margin: 20px;
+}
+
+.right-column-about {
+  width: 60%;
+  margin: 20px;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: white;
+}
+
+.a {
+  grid-row-start: 1;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+
+.b {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+//End of additions
+
 * {
   margin: 0;
   padding: 0;
