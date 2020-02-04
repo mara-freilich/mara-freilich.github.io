@@ -10,26 +10,24 @@
 }
 
 .grid {
-  width: 100%;
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 100%;
-  grid-gap: 10px;
+  grid-gap: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 .box {
   background-color: white;
 }
 
-.a {
-  grid-row-start: 1;
-  grid-column-start:1;
-  grid-column-end:2;
+.left_column_picture {
 }
 
-.b {
-  grid-column-start: 2;
-  grid-row-start: 1;
+.right_column {
 }
 //End of additions
 

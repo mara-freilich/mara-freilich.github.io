@@ -1,6 +1,6 @@
 # Icons on the footer
-rss: true         # Make sure you created a feed.xml with feed.xml layout
-email_address:    # Full email address, e.g. "sam@example.com"
+rss:         # Make sure you created a feed.xml with feed.xml layout
+email_address: ksjdhflksjdfasldjfsakldfj@example.com   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
@@ -18,7 +18,7 @@ stack_overflow:
 stack_exchange:   # Full URL
 steam:
 tumblr:
-twitter:          # "twitter username"
+twitter: ksjdhflksjdfasldjfsakldfj         # "twitter username"
 vimeo:
 wordpress:
 youtube:          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g

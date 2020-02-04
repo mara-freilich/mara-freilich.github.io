@@ -10,9 +10,9 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text:  # Change Blog header text
-header_feature_image: assets/img/pexels/underwater-photography-of-ocean-2397651.jpg
+header_feature_image: assets/img/pexels/close-up-photo-of-water-1350197.jpg
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  <strong>Contact</strong>: researcher_email [at] university.edu<br><br>Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
