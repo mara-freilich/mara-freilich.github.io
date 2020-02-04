@@ -9,6 +9,7 @@
   color: $header-text-color;
   background: $header-background-color no-repeat;
   background-size: $feature-image-size;
+  margin-top: 100px; /*TC Added */
 
   /* --- Responsive --- */
   @media screen and (min-width: $break) {
