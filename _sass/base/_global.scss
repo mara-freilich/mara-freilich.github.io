@@ -9,14 +9,15 @@
   margin: 20px;
 }
 
-.grid {
+.grid_home {
   display: grid;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 100%;
   grid-gap: 30px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 50px;
+  padding-bottom: 6%;
+  padding-top: 1%;
   justify-content: center;
 }
 
@@ -28,6 +29,7 @@
 }
 
 .right_column {
+  width:80%;
 }
 //End of additions
 
