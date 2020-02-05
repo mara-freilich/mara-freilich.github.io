@@ -1,13 +1,13 @@
 # Icons on the footer
 rss:         # Make sure you created a feed.xml with feed.xml layout
-email_address: ksjdhflksjdfasldjfsakldfj@example.com   # Full email address, e.g. "sam@example.com"
+email_address: maraf@mit.edu   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
 facebook:
 flickr:
 gitlab:
-github: "sylhare"
+github: "mfreilich1"
 instagram:
 keybase:
 linkedin:         # Full URL
@@ -18,19 +18,19 @@ stack_overflow:
 stack_exchange:   # Full URL
 steam:
 tumblr:
-twitter: ksjdhflksjdfasldjfsakldfj         # "twitter username"
+twitter: maratimes         # "twitter username"
 vimeo:
 wordpress:
 youtube:          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
 
 # Share button options
 share:
-  facebook: true
+  facebook:
   twitter: true
   tumblr:
   pinterest:
   pocket:
-  reddit: true
+  reddit: 
   linkedin:
   wordpress:
   email: true
