@@ -10,7 +10,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 
 # Header and footer text
 header_text: Mara Freilich  # Change Blog header text <- TC changed, now changes title for home page
-header_feature_image: assets/img/modis_bloom.jpeg
+header_feature_image: assets/img/header_image.png
 footer_text: >
   <strong>Contact</strong>:maraf@mit.edu<br><br>Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
