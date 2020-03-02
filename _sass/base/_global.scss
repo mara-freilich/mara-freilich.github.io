@@ -58,7 +58,9 @@
 }
 
 .pic_outreach {
-  display: inline-block;
+//  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 .text_outreach {
@@ -90,7 +92,9 @@
 }
 
 .fieldwork_story {
-
+  h4 {
+    margin-top: 0px;
+  }
 }
 
 .fieldwork_pic {
