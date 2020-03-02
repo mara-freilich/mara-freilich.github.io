@@ -49,6 +49,26 @@
 .right_column {
   width:80%;
 }
+
+.fieldwork_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+  justify-content: left;
+  align-content: center;
+  align-items: stretch;
+}
+
+.fieldwork_story {
+
+}
+
+.fieldwork_pic {
+//  padding-top:70px;
+
+}
+
 //End of additions
 
 * {
