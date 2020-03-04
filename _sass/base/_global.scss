@@ -65,7 +65,7 @@
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
-  .wrapper_outreach {
+.wrapper_outreach {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
@@ -78,7 +78,7 @@
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   justify-content: center;
   text-align: center;
-  }
+}
 
 .relative_container{
   position: relative;
@@ -88,6 +88,7 @@
 //  display: inline-block;
   width: 100%;
   height: auto;
+
 }
 
 .text_outreach {
@@ -108,17 +109,20 @@
 
 .fieldwork_grid {
   display: grid;
-  grid-template-columns: 3fr 5fr;
-  grid-row-gap: 30px;
-  grid-column-gap: 2rem;
-  padding-left: 0;
-  padding-top: 16px;
-  padding-right: 10px;
-  padding-bottom: 16px;
-  border: 1px 1px 1px 1px;
+  grid-template-columns: 100%;
   justify-content: left;
   align-content: center;
   align-items: stretch;
+}
+
+.fieldwork_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  border-bottom: 2px solid LightGrey;
+  grid-column-gap: 20px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  justify-content: left;
 }
 
 .fieldwork_story {
@@ -130,6 +134,9 @@
 .fieldwork_pic {
 //  padding-top:70px;
   padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+  height: auto;
   }
 
 //End of additions
