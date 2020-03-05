@@ -1,18 +1,36 @@
 // Added css:
-.left-column-about {
+
+
+.home-pic {
+  grid-area: home-pic;
 }
 
-.right-column-about {
+.home-text {
+  grid-area: home-text;
 }
 
 .grid_home {
   display: grid;
-  grid-template-columns: 2fr 5fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 30px;
+  grid-template-areas:
+    'home-text'
+    'home-pic';
+  grid-row-gap: 30px;
   padding-bottom: 5%;
   justify-content: center;
 }
+
+@media (min-width: 400px) {
+  .grid_home {
+  display: grid;
+  grid-template-areas:
+    'home-pic home-pic home-pic home-text home-text home-text home-text';
+  grid-column-gap: 30px;
+//  padding-bottom: 5%;
+  padding-right: 5%;
+  justify-content: center;
+}
+}
+
 
 .grid_outreach {
   display: grid;
