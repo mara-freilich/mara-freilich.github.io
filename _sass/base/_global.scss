@@ -12,12 +12,9 @@
 .grid_home {
   display: grid;
   grid-template-columns: 2fr 5fr;
-  grid-template-rows: 100%;
-  grid-gap: 30px;
-  margin-left: 5%;
-  margin-right: 3%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
   padding-bottom: 5%;
-  padding-top: 5%;
   justify-content: center;
 }
 
@@ -97,9 +94,10 @@
 
 .pic_outreach {
 //  display: inline-block;
+  padding-left: 0px;
+  padding-right: 0px;
   width: 100%;
   height: auto;
-
 }
 
 .text_outreach {
@@ -135,11 +133,31 @@
   justify-content: left;
 }
 
+//No bottom border for this one:
+.fieldwork_last_wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  justify-content: left;
+}
+
 @media (min-width: 600px) {
 .fieldwork_wrapper {
   display: grid;
   grid-template-columns: 3fr 5fr;
   border-bottom: 2px solid LightGrey;
+  grid-column-gap: 20px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  justify-content: left;
+}
+}
+
+@media (min-width: 600px) {
+.fieldwork_last_wrapper {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
   grid-column-gap: 20px;
   padding-bottom: 60px;
   padding-top: 60px;
