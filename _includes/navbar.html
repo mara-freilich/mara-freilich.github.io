@@ -21,11 +21,22 @@
     <i class="fa fa-bars fa-lg"></i>
     </a>
 
+<!-- Menu
+		<ul class="hide">
+						<li class="separator"> | </li>
+						<li>
+								<a class="clear" aria-label="CV" title="CV" href="{{ page.url | relative_url }}">CV
+								</a>
+						</li>
+		</ul>
+-->
     <!-- Menu -->
-    <ul class="hide">
-        {% assign name_page = "" %}
 
-        {% for page in site.pages %}
+		<ul class="hide">
+        {% assign name_page = "" %}
+				{% assign sorted_pages = site.pages | sort:"order" %}
+
+        {% for page in sorted_pages %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li class="separator"> | </li>
             <li>
