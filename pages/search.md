@@ -2,6 +2,7 @@
 layout: search
 title: Search
 permalink: /search/
-feature-img: "assets/img/pexels/close-up-photo-of-water-1350197.jpg"
+feature-img: "assets/img/header_image.png"
 icon: "fa-search"
+order: 20
 ---
