@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/ocean_website.io"
-url: "https://its100percentreal.github.io"
+baseurl: "/"
+url: "https://mara-freilich.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Mara Freilich                                 # site's title
