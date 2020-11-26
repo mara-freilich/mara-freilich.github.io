@@ -8,6 +8,15 @@
   grid-area: home-text;
 }
 
+div.topic {
+display: none;
+margin-bottom: 1em;
+padding: .25em;
+border: black thin solid;
+background-color: #EEEEFF;
+width: 40em;
+}
+
 .grid_home {
   display: grid;
   grid-template-areas:
