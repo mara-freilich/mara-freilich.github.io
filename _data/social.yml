@@ -1,6 +1,6 @@
 # Icons on the footer
 rss:         # Make sure you created a feed.xml with feed.xml layout
-email_address: maraf@mit.edu   # Full email address, e.g. "sam@example.com"
+email_address: mfreilich@ucsd.edu   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
