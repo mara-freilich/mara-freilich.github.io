@@ -1,5 +1,16 @@
 // Added css:
 
+.new-btn {
+  background-color: #25a8db;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.new-btn:hover {
+  background-color: #223094;
+}
+
 .home-pic {
   grid-area: home-pic;
 }
