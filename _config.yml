@@ -12,7 +12,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 header_text: Mara Freilich  # Change Blog header text <- changed, now changes title for home page
 header_feature_image: assets/img/header_image.jpg
 footer_text: >
-  <strong>Contact</strong>: <a href="mailto:mfreilich@ucsd.edu">mfreilich@ucsd.edu</a>
+  <strong>Contact</strong>: <a href="mailto:mara_freilich@brown.edu">mara_freilich@brown.edu</a>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
